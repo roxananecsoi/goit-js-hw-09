@@ -1,24 +1,27 @@
 {
   "name": "goit-js-hw-09",
   "version": "2.0.0",
-  "description": "Этот проект был создан при помощи Parcel. Для знакомства и настройки\r дополнительных возможностей [обратись к документации](https://parceljs.org/).",
-  "homepage": "https://goitacademy.github.io/parcel-project-template",
+  "description": "",
+  "homepage": "https://roxananecsoi.github.io/goit-js-hw-09",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/roxananecsoi/goit-js-hw-09.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Roxana Necsoi <radu.roxana07@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/roxananecsoi/goit-js-hw-09/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "caniuse-lite": "^1.0.30001561",
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
@@ -26,6 +29,5 @@
     "parcel-reporter-clean-dist": "^1.0.4",
     "posthtml-include": "^1.7.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead",
-  "main": "index.js"
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
